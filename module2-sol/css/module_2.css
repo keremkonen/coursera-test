@@ -58,7 +58,7 @@ p {
   text-align:center;
   margin:0px;
   padding:5px 10px 5px 10px;
-  width:160px;
+  width:200px;
   background-color:#000000;
   color:#ffffff;
   position:relative;
@@ -67,13 +67,13 @@ p {
 
 @media (min-width: 1200px) {
   .large {
-    width:33%;
+    width:30%;
   }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
   .medium1{
-    width:50%;
+    width:40%;
   }
   .medium2{
     width:100%;
