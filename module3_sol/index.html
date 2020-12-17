@@ -4,12 +4,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Çorba Var Mı Beyler</title>
-<link href="../coursera-test/module3-sol/css/styles.css" rel="stylesheet" type="text/css">
-<link href="../coursera-test/module3-sol/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="css/styles.css.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 	<header>
-	<nav class="navbar navbar-default">
+  <nav class="navbar navbar-default">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -19,29 +20,20 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Food LLC.</a>
-	  </div>
+      <a class="navbar-brand" href="#">Food LLC:</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Beef <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Chicken</a></li>
+		  <li><a href="#">Sushi</a></li>
+      </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
-		<div id="collapsable-nav" class="collapse navbar-collapse ">
-           <ul id="nav-list" class="nav navbar-nav navbar-right">
-            <li>
-              <a href="#CB" class="visible-xs">
-                <span></span>Beef</a>
-            </li>
-            <li>
-              <a href="#CC" class="visible-xs">
-                <span></span>Chicken</a>
-            </li>
-            <li>
-              <a href="#CS" class="visible-xs">
-                <span></span>Sushi</a>
-            </li>
-		</ul>
-	</div>
 </nav>
-</header>
+  </header>
 	<h1 class="text-center">Our Menu</h1>
 	<div class="row">
 	<div id="beef-container" class="container-fluid col-lg-4 col-md-12 col-sm-12 col-xs-12">
@@ -58,5 +50,8 @@
 	</div>
 	</div>
 </body>
-
+	
+<script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
 </html>
